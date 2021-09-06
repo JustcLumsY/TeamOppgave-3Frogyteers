@@ -1,0 +1,556 @@
+/* #mainPage 
+{
+    background-image: url("https://www.wallpaperflare.com/static/378/579/693/three-s-a-crowd-buddy-green-frogs-green-branch-wallpaper.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+#startBtn 
+{
+    font-size: 250px;
+}
+
+.txtEnd 
+{
+    font-size: 22px;
+    font-family: cursive;
+    
+}
+
+h1
+{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 97px;
+    margin: -9px;
+    padding: 0;
+    color: #bee4bf;
+   
+    letter-spacing: 5px;
+    text-shadow: -2px 2px 7px #38bd3c;
+    position: relative;
+    -webkit-animation: myThird 5s ;
+    animation: myThird 5s ;
+}
+
+
+
+
+#next 
+{
+    display:grid;
+    grid-template-areas: 
+    "top top top top1"
+    "story story story story"
+    "story story story story"
+    "btn btn btn btn";
+    height: 100vh;
+    width: 100vw;
+    background: rgb(21,112,255);
+    background: linear-gradient(90deg, rgba(21,112,255,1) 0%, rgba(3,244,20,1) 100%, rgba(1,255,0,0.5606617647058824) 100%, rgba(46,9,121,1) 100%, rgba(25,63,201,1) 100%);
+    
+}
+
+#amigo1 
+{
+    background-image: url("amigo1.png");
+    position: relative;
+    background-size: cover;
+    left: 576px;
+}
+    
+#amigo2
+{
+    background-image: url("amigo2.png");
+    position: relative;
+    background-size: cover;
+    left: 544px;
+}
+    
+
+#frosk1 
+{
+    background-image: url("Frogs-clipart.png");
+    position: relative;
+    background-size: cover;
+    /* opacity: 50%; */
+}
+#froskA 
+{
+    background-image: url("R.png");
+    position: relative;
+    background-size: cover;
+    top: -40vh;
+    background-size: 31vh;
+    background-repeat: no-repeat;
+    left: -11vh;
+    animation-iteration-count: 1;
+    animation-name: myFirst;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation: myfirst 9s linear 10s infinite alternate;
+}
+#froskB 
+{
+    background-image: url("R.png");
+    position: relative;
+    /* background-size: cover; */
+    top: -65vh;
+    background-size: 25vh;
+    background-repeat: no-repeat;
+    left: -11vh;
+    /* animation-iteration-count: 1;
+    animation-name: mySecond;
+    animation-duration: 4s;
+    animation-direction: normal; */
+    animation: mySecond 9s linear 10s infinite ;
+    
+}
+
+@keyframes myfirst {
+    0%    {left:50px; top:50px;}
+    
+    100% {left:300px; top:50px;}
+  }
+
+@keyframes mySecond {
+ 0% {
+    top: -42px;
+    left: 158px;
+}
+
+25% {
+    top: 23px;
+    left: 195px;
+}
+50% {
+    top: 75px;
+    left: 100px;
+}
+75% {
+    top: -125px;
+    left: -25px;
+}
+100% {
+    top: -137px;
+    left: 67px;
+}
+}
+
+@keyframes myThird 
+
+{
+    from {transform: translateY(-200px);}
+    to {transform: translateY(0px);}
+}
+
+
+#frosk10 
+{
+    background-image: url("ninja.png");
+    position: relative;
+    background-size: cover;
+}
+
+#slange 
+{
+    background-image: url("asd.png");
+    position: relative;
+    background-size: cover;
+}
+
+#ninja 
+{
+    background-image: url("ninja.png");
+    position: relative;
+    background-size: cover;
+    
+}
+#flykick 
+{
+    background-image: url("side4.2.jpg");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 96%;
+}
+
+#frosk2 
+
+{
+    background-image: url("christmas-frog-clipart.png");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 109%;
+    top: 382px;
+    
+}
+
+#frosk3
+{
+    background-image: url("christmas-frog-clipart.png");
+    position: relative;
+    background-size: cover;
+    left: -161px;
+    top: -308px;
+}
+
+
+#frosk4
+{
+    background-image: url("christmas-frog-clipart.png");
+    position: relative;
+    background-size: cover;
+    top: 507px;
+    left: 355px;
+}
+
+
+.rotateimg270 {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(270deg);
+  }
+.rotateimg180 {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+.rotateimg120 {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(120deg);
+  }
+  .rotateimg90 {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(90deg);
+  }
+  .rotateimg80 {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(110deg);
+  }
+
+
+ #story1 
+ {
+        grid-area: story;
+        background-color: rgb(116, 111, 111);
+        height: 31vw;
+        width: 80vh;
+       
+        position: absolute;
+        left: 31%;
+        top: 15%;
+        border: 1px solid black;
+        box-shadow: 12px 12px 2px 1px rgba(64, 64, 66, 0.2);
+        
+  
+}
+ #story2 
+ {
+        grid-area: story;
+        background-color: rgb(116, 111, 111);
+        height: 31vw;
+        width: 80vh;
+       
+        position: absolute;
+        left: 31%;
+        top: 15%;
+        border: 1px solid black;
+        box-shadow: 12px 12px 2px 1px rgba(64, 64, 66, 0.2);
+        
+  
+}
+ #story3
+ {
+        grid-area: story;
+        background-color: rgb(116, 111, 111);
+        height: 31vw;
+        width: 80vh;
+       
+        position: absolute;
+        left: 31%;
+        top: 15%;
+        border: 1px solid black;
+        box-shadow: 12px 12px 2px 1px rgba(64, 64, 66, 0.2);
+        
+  
+}
+ #story4
+ {
+        grid-area: story;
+        background-color: rgb(116, 111, 111);
+        height: 36vw;
+        width: 80vh;
+       
+        position: absolute;
+        left: 31%;
+        top: 15%;
+        border: 1px solid black;
+        box-shadow: 12px 12px 2px 1px rgba(64, 64, 66, 0.2);
+        
+  
+}
+
+
+#btn1, #btn2, #btn3, #btn4 
+{
+    cursor: pointer;
+    border-radius: 20px;
+    /* box-shadow: 12px 12px 2px 1px rgba(41, 41, 48, 0.2); */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#btn1
+{
+    display: inline-block;
+    grid-area: btn;
+    height: 45px;
+    width: 134px;
+    justify-self: center;
+    
+    
+}
+#btn2
+{
+    display: inline-block;
+    grid-area: btn;
+    height: 45px;
+    width: 134px;
+    justify-self: center;
+    
+}
+#btn3
+{
+    display: inline-block;
+    grid-area: btn;
+    height: 45px;
+    width: 134px;
+    justify-self: center;
+    
+}
+#btn4
+{
+    display: inline-block;
+    grid-area: btn;
+    height: 45px;
+    width: 134px;
+    justify-self: center;
+   
+}
+
+#answerBtns 
+{
+    grid-area: btn;
+    justify-self: center;
+    display: flex;
+    grid-gap: 12px;
+    margin: -6px 0 0 115px;
+
+}
+
+.next {
+    grid-area: top1;
+    height: 65px;
+    width: 115px;
+    position: relative;
+    top: 86%;
+    right: -117px;
+    cursor: pointer;
+    background-color: #b5d1b8;
+    border: none;
+    /* padding: 20px; */
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 12px 12px 2px 1px rgba(64, 64, 66, 0.2);
+}
+.next:hover{
+    background:#00e21e;
+    box-shadow:0px 2px 10px 5px #97B1BF;
+    color:#000;
+ }
+
+#resetBtn 
+{
+    grid-area: top1;
+    height: 45px;
+    width: 115px;
+    position: relative;
+    top: 50%;
+    right: -116px;
+
+    cursor: pointer;
+    background-color: #6d706d;
+    border: none;
+    /* padding: 20px; */
+    
+    text-align: center;
+    
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 12px 12px 2px 1px rgba(64, 64, 66, 0.2);
+    
+
+}
+#resetBtn:hover{
+    background:#e20f00;
+    box-shadow:0px 2px 10px 5px #97B1BF;
+    color:#000;
+ }
+
+.button-three {
+    position: relative;
+    background-color: #b5d1b8;
+    border: none;
+    /* padding: 20px; */
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    box-shadow: 12px 12px 2px 1px rgba(64, 64, 66, 0.2);
+}
+
+.button-three:hover{
+   background:#9cc7a1;
+   box-shadow:0px 2px 10px 5px #97B1BF;
+   color:#000;
+}
+
+.button-three:after {
+    content: "";
+    background: #f1c40f;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button-three:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+.box2{
+    width:auto;
+    height: auto;
+    border-width: 3px 3px 5px 5px;
+    border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+    transform: rotate(-2deg);
+  }
+  
+  
+  .oddboxinner{
+    margin:15px;
+    transform: rotate(-2deg);
+  }
+  .evenboxinner{
+    transform: rotate(2deg);
+    margin:15px;
+    padding:0 5px;
+    
+    background:rgba(221, 221, 221, 0.808);
+    border:1px solid #222;
+    box-shadow:3px 3px 0 #222;
+    height: 48vh;
+  }
+  .oddboxinner2{
+    margin:15px;
+    transform: rotate(-2deg);
+  }
+  .evenboxinner2{
+    
+    margin:15px;
+    padding:0 5px;
+    
+    background:rgba(221, 221, 221, 0.808);
+    border:1px solid #222;
+    box-shadow:3px 3px 0 #222;
+    height: 48vh;
+  }
+
+
+.txt1 
+{
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+}
+
+  h3 
+  {
+      font-size: 25px;
+      text-align: center;
+      margin: 0;
+    
+      
+  }
+#btn5, #btn6, #btn7, #btn8
+{
+    display: inline-block;
+    grid-area: btn;
+    height: 45px;
+    width: 134px;
+    justify-self: center;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+#btn9, #btn10, #btn11, #btn12
+{
+    display: inline-block;
+    grid-area: btn;
+    height: 45px;
+    width: 134px;
+    justify-self: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+  
+#btn13, #btn14, #btn15, #btn16
+{
+    display: inline-block;
+    grid-area: btn;
+    height: 45px;
+    width: 134px;
+    justify-self: center;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
