@@ -1,7 +1,6 @@
-// function next(page1, page2, page3, page4) {
-//     document.getElementById('next').innerHTML = document.getElementById('next1');
-// }
-// var page = 1;
+function start() {
+    return next();
+}
 
 
 function nextPage() {
@@ -115,12 +114,3 @@ function click17(press17) {
 
 
 
-
-// function next() {
-// }
-// function next2() {
-// }
-// function next3() {
-// }
-// function next4() {
-// }

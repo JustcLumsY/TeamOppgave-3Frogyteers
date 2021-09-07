@@ -1,22 +1,33 @@
-// // mainPage();
+mainPage();
+function mainPage() {
+    document.getElementById('mainPage').innerHTML = /*html*/`
 
+    <div class="txt1">
+    <div id="abc">
+    <button class="startBtn" onclick="start()"><h3>Start</h3></button> 
+    <svg viewBox="0 0 500 500">
+    
+    <path id="curve" fill="#b5d1b8" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
 
+            <text width="500">
+            
+            <textPath xlink:href="#curve">
+             Three Amigos 
+            </textPath>
+            </text>
+            
+  </svg>
+  </div>
+</div>
+             
+            
+            
+                
+  
+    `;
+    
+}
 
-
-// // function mainPage() {
-// //     document.getElementById('mainPage').innerHTML = `
-
-// //         <button id="startBtn" type="button" > Start! </button>
-// //     `;
-
-// // }
-
-
-
-
-
-
-next();
 function next() {
     document.getElementById('next').innerHTML =  /*html*/`
     <div id="amigo1"></div>
@@ -36,67 +47,33 @@ function next() {
         <div id="frosk1"
 
             <div class="box box2">
-            <div class="evenboxinner">
+                <div class="evenboxinner">
 
-                <div class="txt1"> Det var en gang 3 ${word1} frosker, </br>
+                    <div class="txt1"> Det var en gang 3 ${word1} frosker, </br>
                                     som vandret på en ${word2} sti. </br>
                                     Plutselig kom det en ${word3} buorm. </br>
                                     Buormer er veldig ${word4} for froskene.
                 </div>
 
-        </div>
+                    </div>
             
             </div>
-        <div id="answerBtns">
+                     <div id="answerBtns">
 
-        <button id="btn1" class="button-three" ${isDisabled1} type="button" onclick="click1(this);word(this)">gigantisk</button> <br />
-        <button id="btn2" class="button-three" ${isDisabled2} type="button" onclick="click2(this);word(this)">legendariske</button><br />
-        <button id="btn3" class="button-three" ${isDisabled3} type="button" onclick="click3(this);word(this)">farlige</button><br />
-        <button id="btn4" class="button-three" ${isDisabled4} type="button" onclick="click4(this);word(this)">ufyselig</button>
+                    <button id="btn1" class="button-three" ${isDisabled1} type="button" onclick="click1(this);word(this)">gigantisk</button> <br />
+                    <button id="btn2" class="button-three" ${isDisabled2} type="button" onclick="click2(this);word(this)">legendariske</button><br />
+                    <button id="btn3" class="button-three" ${isDisabled3} type="button" onclick="click3(this);word(this)">farlige</button><br />
+                    <button id="btn4" class="button-three" ${isDisabled4} type="button" onclick="click4(this);word(this)">ufyselig</button>
+
+                    </div>
 
         </div>
-
-    </div>
     </div>
 
-
+    
     `;
 
 }
-
-// getView();
-// function getView(text){
-
-//     return `
-
-//     <div id="story2">
-
-//         <div id="frosk1">
-//             <div class="box box2">
-//             <div class="evenboxinner">
-
-//             <div id="txt1">
-//             ${text}
-//             </div>
-
-//             <button class="next1" onclick="next2()"><h3>Next2</h3></button>
-//                 </div>
-//                 </div>
-//                 </div>
-
-//                 <div id="answerBtns">
-
-//                 <button id="btn5" class="button-three" ${isDisabled5} type="button" onclick="click5(this);wordTwo(this)">forbanna</button> <br />
-//                 <button id="btn6" class="button-three" ${isDisabled6} type="button" onclick="click6(this);wordTwo(this)">Nisse</button><br />
-//                 <button id="btn7" class="button-three" ${isDisabled7} type="button" onclick="click7(this);wordTwo(this)">Gape</button><br />
-//                 <button id="btn8" class="button-three" ${isDisabled8} type="button" onclick="click8(this);wordTwo(this)">Huff</button>
-
-//         </div>
-//     </div>
-//     `;
-
-// }
-
 
 function next1() {
     document.getElementById('next1').innerHTML =
@@ -108,35 +85,32 @@ function next1() {
         <div id="slange">
             <div class="box box2">
             
-            <div class="evenboxinner">
-            <div class="txt1">
+                <div class="evenboxinner">
+                    <div class="txt1">
 
-            Plutselig kom den ${word5} buormen snikende </br>
-            ut fra en ${word6} busk. </br>
-            Den ${word7} buormen var ${word8}.</br>
-            </div>
+                        Plutselig kom den ${word5} buormen snikende </br>
+                        ut fra en ${word6} busk. </br>
+                        Den ${word7} buormen var ${word8}.</br>
+                        </div>
 
             
+                    </div>
                 </div>
-                </div>
-                </div>
+            </div>
 
-                <div id="answerBtns">
+                        <div id="answerBtns">
 
-                <button id="btn5" class="button-three" ${isDisabled5} type="button" onclick="click5(this);wordTwo(this)">svææær</button> <br />
-                <button id="btn6" class="button-three" ${isDisabled6} type="button" onclick="click6(this);wordTwo(this)">køddete</button><br />
-                <button id="btn7" class="button-three" ${isDisabled7} type="button" onclick="click7(this);wordTwo(this)">stor</button><br />
-                <button id="btn8" class="button-three" ${isDisabled8} type="button" onclick="click8(this);wordTwo(this)">sleip</button>
+                        <button id="btn5" class="button-three" ${isDisabled5} type="button" onclick="click5(this);wordTwo(this)">svær</button> <br />
+                        <button id="btn6" class="button-three" ${isDisabled6} type="button" onclick="click6(this);wordTwo(this)">ufyselig</button><br />
+                        <button id="btn7" class="button-three" ${isDisabled7} type="button" onclick="click7(this);wordTwo(this)">stor</button><br />
+                        <button id="btn8" class="button-three" ${isDisabled8} type="button" onclick="click8(this);wordTwo(this)">sleip</button>
 
-        </div>
-    </div>
+                        </div>
+    
 
         `;
 
 }
-{/* <button class="next1" onclick="next2()"><h3>Next2</h3></button> */}
-
-
 
 function next2() {
     document.getElementById('next2').innerHTML =
@@ -144,26 +118,25 @@ function next2() {
      /*html*/`
      <div id="story3">
 
-     <div id="ninja">
-         <div class="box box2">
-         <div class="evenboxinner">
+        <div id="ninja">
+            <div class="box box2">
+                <div class="evenboxinner">
 
-         <div class="txt1">
+                    <div class="txt1">
 
-         Buormen ville spise alle de 3 ${word9} froskene. </br>
-         Men froskene var sterke og de var ${word10} raske. </br>
-         De kunne også karate på et ${word11} høyt nivå. </br>
-         De var ekte froske ninjaer!</br> De var helt ${word12}.
+                        Buormen ville spise alle de 3 ${word9} froskene. </br>
+                        Men froskene var sterke og de var ${word10} raske. </br>
+                        De kunne også karate på et ${word11} høyt nivå. </br>
+                        De var ekte froske ninjaer!</br> De var helt ${word12}.
 
 
-         </div>
+                    </div>
          
-         </div>
-         </div>
-         </div>
-         <div id="answerBtns">
+        </div>
+                </div>
+            </div>
 
-
+            <div id="answerBtns">
 
              <button id="btn9" class="button-three" ${isDisabled9} type="button" onclick="click9(this);wordThree(this)">legendariske</button> <br />
              <button id="btn10" class="button-three" ${isDisabled10} type="button" onclick="click10(this);wordThree(this)">veldig</button><br />
@@ -172,12 +145,11 @@ function next2() {
 
 
 
-     </div>
- </div>
+            </div>
+    </div>
      `;
 
 }
-{/* <button class="next3" onclick="next3()"><h3>Next3</h3></button> */}
 
 function next3() {
     document.getElementById('next3').innerHTML =
@@ -205,6 +177,7 @@ function next3() {
 
         `;
 }
+
 function next4() {
     document.getElementById('next4').innerHTML =
 
@@ -260,14 +233,4 @@ function next4() {
 
 
 
-
-        {/* /* <div id="story5">
-        Ingen har siden sett den ${} buormen,
-        og de 3 ${} froskene kan leve lykkelige i alle sine dager i den ${} skogen.
-
-        <button class="btn" type="button" onclick="word(this)">Blah</button>
-        <button class="btn" type="button" onclick="word(this)">Blah</button>
-        <button class="btn" type="button" onclick="word(this)">Blah</button>
-        <button class="btn" type="button" onclick="word(this)">Blah</button>
-          */}
 
